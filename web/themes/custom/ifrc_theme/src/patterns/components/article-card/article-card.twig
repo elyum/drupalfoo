@@ -1,0 +1,13 @@
+{{ attach_library('ifrc_theme/article-card') }}
+
+<div class="article-card--container">
+  <div class="article-card--thumbnail" style="background-image: url( '{{ thumbnail }}' );">
+  </div>
+  <div class="article-card--content">
+    <h1 class="article-card--date">{{ date }}</h1>
+    <h2 class="article-card--title">{{ title }}</h2>
+    <div class="article-card--link">
+      <a href="{{ url }}">Read more</a>
+    </div>
+  </div>
+</div>

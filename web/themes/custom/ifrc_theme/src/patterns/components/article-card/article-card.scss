@@ -1,0 +1,39 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.article-card--container {
+  width: 31%;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px;
+  border: solid 1px $color-gray-xlt;
+}
+
+.article-card--content {
+  padding: 15px;
+  background: $color-white;
+}
+
+.article-card--date {
+  font-weight: 100;
+  font-size: 15px;
+  color: $color-gray-lt;
+  margin-bottom: 15px;
+}
+
+.article-card--title {
+  color: $color-ifrc;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+
+.article-card--link a {
+  text-decoration: none;
+  color: $color-ifrc;
+}
+
+.article-card--thumbnail {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}

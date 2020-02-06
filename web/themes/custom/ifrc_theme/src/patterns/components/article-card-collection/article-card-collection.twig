@@ -1,0 +1,15 @@
+{{ attach_library('ifrc_theme/article-card-collection') }}
+
+<div class="articles">
+{% for item in items %}
+{% embed "@ifrc_theme/article-card/article-card.twig" with
+  {
+  thumbnail: item.thumbnail,
+  date: item.date,
+  title: item.title,
+  url: item.url
+  } only
+%}
+{% endembed %}
+{% endfor %}
+</div>
