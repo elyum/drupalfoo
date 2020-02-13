@@ -1,0 +1,5 @@
+
+article-card-collection:
+  css:
+    component:
+      dist/css/article-card-collection.css: {}

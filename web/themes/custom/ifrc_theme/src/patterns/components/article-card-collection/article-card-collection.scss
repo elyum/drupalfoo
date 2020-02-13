@@ -1,0 +1,14 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.article-card--container {
+  width: 31%;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 5px;
+  border: solid 1px $color-gray-lt;
+}
+
+.articles {
+  background-color: $color-gray-xlt;
+}

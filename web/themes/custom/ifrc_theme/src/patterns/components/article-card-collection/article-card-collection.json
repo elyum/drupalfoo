@@ -1,0 +1,17 @@
+{
+  "items":[
+    {
+      "thumbnail": "https://media.ifrc.org/ifrc/wp-content/uploads/sites/5/2018/10/wdr18sq_ch1.jpg",
+      "date": "11 January, 2020",
+      "title": "The first article"
+    },
+    {
+      "thumbnail": "https://media.ifrc.org/ifrc/wp-content/uploads/sites/5/2018/10/wdr18sq_ch4.jpg",
+      "date": "10 January, 2020",
+      "title": "The second article"    },
+    {
+      "thumbnail": "https://media.ifrc.org/ifrc/wp-content/uploads/sites/5/2018/10/wdr18sq_ch6.jpg",
+      "date": "9 January, 2020",
+      "title": "The third article"    }
+  ]
+}

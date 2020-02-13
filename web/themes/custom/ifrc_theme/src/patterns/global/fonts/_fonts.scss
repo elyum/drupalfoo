@@ -1,0 +1,85 @@
+// For more information on font-face and browser support visit:
+// https://css-tricks.com/snippets/css/using-font-face/
+
+// Montserrat bold.
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  // The browser will hide the text for about 100ms and, if the font has not yet
+  // been downloaded, will use the fallback text. It will swap to the new font
+  // after it is downloaded, but only during a short swap period
+  // https://css-tricks.com/almanac/properties/f/font-display/
+  font-display: fallback;
+  src: url('../fonts/assets/Montserrat-Bold.ttf') format('ttf');
+}
+
+// Montserrat Bold Italic.
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bolder;
+  font-weight: 700;
+  // The browser will hide the text for about 100ms and, if the font has not yet
+  // been downloaded, will use the fallback text. It will swap to the new font
+  // after it is downloaded, but only during a short swap period
+  // https://css-tricks.com/almanac/properties/f/font-display/
+  font-display: fallback;
+  src: url('../fonts/assets/Montserrat-BoldItalic.ttf') format('ttf');
+}
+
+// Montserrat Italic.
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  // The browser will hide the text for about 100ms and, if the font has not yet
+  // been downloaded, will use the fallback text. It will swap to the new font
+  // after it is downloaded, but only during a short swap period
+  // https://css-tricks.com/almanac/properties/f/font-display/
+  font-display: fallback;
+  src: url('../fonts/assets/Montserrat-Italic.ttf') format('ttf');
+}
+
+// Montserrat Regular.
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  // The browser will hide the text for about 100ms and, if the font has not yet
+  // been downloaded, will use the fallback text. It will swap to the new font
+  // after it is downloaded, but only during a short swap period
+  // https://css-tricks.com/almanac/properties/f/font-display/
+  font-display: fallback;
+  src: url('../fonts/assets/Montserrat-Regular.ttf') format('ttf');
+}
+
+// Open Sans Regular.
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('../fonts/assets/OpenSans-Regular.ttf') format('ttf');
+}
+
+// Open Sans Italic.
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('../fonts/assets/OpenSans-Italic.ttf') format('ttf');
+}
+
+// Open Sans Bold.
+@font-face {
+  font-family: 'Open Sans';
+  font-style: bolder;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('../fonts/assets/OpenSans-Bold.ttf') format('ttf');
+}
+
+.font-secondary {
+  @include font-stack-secondary;
+}
