@@ -6,8 +6,12 @@ dependencies:
     - field.field.node.page.body
     - node.type.page
   module:
+    - entity_print
     - text
     - user
+third_party_settings:
+  entity_print:
+    pdf_label: 'View PDF'
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
 id: node.page.default
@@ -18,11 +22,20 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  entity_print_view_pdf:
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   links:
-    weight: 101
+    weight: 1
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_word_docx: true
